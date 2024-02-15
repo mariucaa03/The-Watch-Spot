@@ -1,0 +1,33 @@
+.sale-section {
+  padding: 80px 20px;
+}
+
+.sale-title {
+  color: var(--black-color);
+  font-family: Epilogue;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+}
+
+.sale-images {
+}
+
+.sale-mini-images {
+}
+
+.sale-main-image {
+}
+
+.sale-information {
+}
+
+.sale-information-title {
+}
+
+.sale-information-description {
+}
+
+.sale-information-details {
+}

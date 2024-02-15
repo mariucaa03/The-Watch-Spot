@@ -1,0 +1,144 @@
+.about-section {
+  padding: 40px 20px 80px;
+}
+
+.about-subtitle-and-description {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-subtitle {
+  color: var(--dark-green-color);
+  font-family: Epilogue;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+  margin-bottom: 40px;
+}
+.about-subtitle-desktop {
+  display: none;
+}
+
+.about-subtitle-mobile-and-tablet {
+}
+
+.about-paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-paragraph {
+  color: var(--dark-green-color);
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
+
+  width: 335px;
+}
+
+.about-paragraph-1 {
+}
+
+.about-paragraph-2 {
+}
+
+.about-image {
+  width: 335px;
+  height: 365px;
+  display: none;
+}
+
+.about-image-mobile {
+  display: none;
+}
+
+.about-image-desktop-and-tablet {
+  display: none;
+}
+
+@media screen and (width>=768px) {
+  .about-section {
+    padding: 64px 32px 128px;
+  }
+
+  .about-subtitle-and-description {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .about-paragraphs {
+    flex-direction: row;
+  }
+
+  .about-paragraph-1 {
+    width: 220px;
+  }
+
+  .about-paragraph-2 {
+    width: 250px;
+  }
+
+  .about-image-mobile {
+    display: none;
+  }
+  .about-image-desktop {
+    display: none;
+  }
+
+  .about-image {
+    display: block;
+  }
+
+  .about-image-desktop-and-tablet {
+    display: block;
+    /* width: 704px;
+    height: 465px; */
+  }
+}
+
+@media screen and (width>=1158px) {
+  .about-section {
+    padding: 80px 132px;
+    display: flex;
+    gap: 110px;
+  }
+
+  .about-subtitle-and-description {
+    gap: 110px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-subtitle-desktop {
+    display: flex;
+  }
+
+  .about-subtitle-mobile-and-tablet {
+    display: none;
+  }
+
+  .about-paragraph-1 {
+    width: 439px;
+  }
+
+  .about-paragraph-2 {
+    width: 380px;
+  }
+
+  .about-image-desktop {
+    display: flex;
+  }
+
+  .about-image-desktop-and-tablet {
+    width: 892px;
+    height: 500px;
+  }
+
+  .about-image {
+    display: none;
+  }
+}

@@ -47,6 +47,8 @@
 }
 
 .hero-carousel-and-buttons {
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-carousel-images {
@@ -66,7 +68,6 @@
   display: block;
   padding: 11px 44px;
   background-color: var(--dark-green-color);
-
 }
 
 /* .hero-carousel-animation{
@@ -96,12 +97,10 @@
   }
 } */
 
-
-
 .hero-buttons-and-display {
   display: inline-flex;
   align-items: flex-end;
-  gap: 116px;
+  gap: 100px;
 }
 
 .hero-buttons {
@@ -164,7 +163,6 @@
 .hero-main-image-desktop-and-tablet {
   display: none;
 }
-
 
 @media screen and (width>=768px) {
   .first-section-container {
@@ -246,14 +244,15 @@
   .hero-carousel-paragraph-and-main-image {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: end;
     gap: 64px;
 
-  .hero-carousel-and-paragraph {
-    flex-direction: row;
-  }
+    .hero-carousel-and-paragraph {
+      flex-direction: row;
+    }
 
-  .hero-carousel-paragraph {
-    display: none;
+    .hero-carousel-paragraph {
+      display: none;
+    }
   }
 }
