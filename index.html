@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A collection of premium watches" />
+    <meta name="key-words" content="watches, luxury, man, accesories" />
+    <title>The Watch Spot</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/hero-styles.css" />
+    <link rel="stylesheet" href="./css/header-styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-section-container">
+        <header class="header">
+          <nav class="nav-bar">
+            <ul class="nav-bar-list">
+              <li class="nav-bar-item">About us</li>
+              <li class="nav-bar-item">Catalog</li>
+              <li class="nav-bar-item">Sale</li>
+            </ul>
+          </nav>
+          <div class="header-cta">
+            <address class="header-address">
+              <a
+                class="header-address-telephone"
+                href="tel:+380 (68) 443-94-26"
+              >
+                +380 (68) 443-94-26</a
+              >
+            </address>
+          </div>
+        </header>
+        <section class="hero-section">
+          <div class="hero-title-and-paragraph">
+            <h1 class="hero-title">
+              Welcome to our collection of premium watches
+            </h1>
+            <p class="hero-paragraph hero-title-paragraph">
+              Our watches are not just timepieces, but also an expression of
+              your personality and lifestyle. From classic designs to modern
+              ones, we have a watch to suit every taste and occasion.
+            </p>
+          </div>
+          <div class="hero-carousel-paragraph-and-main-image">
+            <div class="hero-carousel-and-paragraph">
+              <p class="hero-paragraph hero-carousel-paragraph">
+                Our watches are not just timepieces, but also an expression of
+                your personality and lifestyle. From classic designs to modern
+                ones, we have a watch to suit every taste and occasion.
+              </p>
+              <div class="hero-carousel-and-buttons">
+                  <div class="hero-carousel-images ">
+                    <img
+                      srcset="./images/hero-carousel-img1.png 1x,
+                      ./images./hero-carousel-img1@x2.png  2X"
+                      src="./images/hero-carousel-img1.png"
+                      alt="First watch"
+                      class="hero-carousel-item"
+                      data-carousel-item
+                    />
+                    <img
+                      srcset="./images/hero-carousel-img2.png 1x,
+                      ./images./hero-carousel-img2@x2.png  2X"
+                      src="./images/hero-carousel-img2.png"
+                      alt="Second watch"
+                      class="hero-carousel-item"
+                      
+                      data-carousel-item
+                    />
+                    <img
+                      srcset="./images/hero-carousel-img3.png 1x,
+                      ./images./hero-carousel-img3@x2.png  2X"
+                      src="./images/hero-carousel-img3.png"
+                      alt="Third watch"
+                      class="hero-carousel-item"
+                      data-carousel-item
+                    />
+                    <img
+                      srcset="./images/hero-carousel-img4.png 1x,
+                      ./images./hero-carousel-img4@x2.png  2X"
+                      src="./images/hero-carousel-img4.png"
+                      alt="Fourth watch"
+                      class="hero-carousel-item"
+                      data-carousel-item
+                    />
+                    <img
+                      srcset="./images/hero-carousel-img5.png 1x,
+                      ./images./hero-carousel-img5@x2.png  2X"
+                      src="./images/hero-carousel-img5.png"
+                      alt="Fifth watch"
+                      class="hero-carousel-item"
+                      data-carousel-item
+                    />
+                  </div>
+                  <div class="hero-buttons-and-display">
+                    <div class="hero-buttons">
+                      <button
+                        class="hero-control-buttons "
+                        type="button"
+                        onclick="onBack()"
+                      >
+                        <svg class="hero-button">
+                          <use href="./images/icons.svg#back-button" />
+                        </svg>
+                      </button>
+                      <button
+                        class="hero-control-buttons"
+                        type="button"
+                        onclick="onNext()"
+                      >
+                        <svg class="hero-button">
+                          <use href="./images/icons.svg#next-button" />
+                        </svg>
+                      </button>
+                    </div>
+                    <span class="hero-display-count">
+                      01
+                      <svg
+                        class="hero-line"
+                        width="24"
+                        height="24"
+                        class="hero-button"
+                      >
+                        <use href="./images/icons.svg#line" />
+                      </svg>
+                      05
+                    </span>
+                  </div>
+              </div>
+            </div>
+            <div class="hero-main-image">
+                 <img
+                 class="hero-main-image-mobile"
+            
+              srcset="./images/hero-main-image-small.png 1x,
+                ./images./hero-main-image-small@x2.png  2X"
+              src="./images/hero-main-image-small.png"
+              alt="A watch on a man's hand in a rainy day"
+            />
+
+            <img
+            class="hero-main-image-desktop-and-tablet"
+              srcset="./images/hero-main-image-big.png 1x,
+                ./images./hero-main-image-big@x2.png  2X"
+              src="./images/hero-main-image-big.jpg"
+              alt="A watch on a man's hand in a rainy day"
+            />
+          </div>
+        </div>
+          </div>
+        </section>
+      </div>
+      <main>
+        <section><div class="container"></div></section>
+        <section><div class="container"></div></section>
+        <section><div class="container"></div></section>
+        <section><div class="container"></div></section>
+      </main>
+      <footer></footer>
+      <!-- modal -->
+      <div></div>
+    </div>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/display-images-in-carousel.js"></script>
+  </body>
+</html>
